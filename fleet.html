@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Fleet - Shah Rent A Car</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader__logo">S</div>
+        <div class="preloader__bar"><div class="preloader__bar-fill"></div></div>
+    </div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header__inner">
+            <a href="index.html" class="header__logo">
+                <div class="logo__icon">S</div>
+                <div class="logo__text">
+                    <span class="logo__brand">SHAH</span>
+                    <span class="logo__sub">Rent A Car</span>
+                </div>
+            </a>
+            <nav class="header__nav">
+                <a href="index.html" class="nav__link active">Home</a>
+                <a href="fleet.html" class="nav__link">Our Cars</a>
+                <a href="about.html" class="nav__link">About</a>
+                <a href="contact.html" class="nav__link">Contact</a>
+            </nav>
+            <div class="header__actions">
+                <a href="tel:+923319174081" class="header__cta header__cta--call">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                    Call
+                </a>
+                <a href="https://wa.me/923335858046" class="header__cta header__cta--whatsapp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.122 1.52 5.86L0 24l6.335-1.652A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.82a9.83 9.83 0 0 1-5.018-1.373l-.36-.213-3.733.978.997-3.643-.235-.374A9.82 9.82 0 0 1 2.18 12c0-5.422 4.398-9.82 9.82-9.82 5.422 0 9.82 4.398 9.82 9.82 0 5.422-4.398 9.82-9.82 9.82z"/></svg>
+                    WhatsApp
+                </a>
+            </div>
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Hero -->
+    <div class="page-hero">
+        <div class="container fade-in">
+            <div class="page-hero__breadcrumb">
+                <a href="index.html">Home</a>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                <span>Our Fleet</span>
+            </div>
+            <h1 class="heading-1 page-hero__title">Our Fleet</h1>
+            <p class="page-hero__subtitle">Handpicked vehicles for every journey.</p>
+        </div>
+    </div>
+
+    <!-- Fleet Grid Section -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid--fleet stagger">
+                <!-- Vehicle 1: Suzuki Alto -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/suzuki-alto.png" alt="Suzuki Alto">
+                        <div class="vehicle-card__badges"><span class="badge">Economy</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Suzuki Alto</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Nimble, fuel-efficient city car perfect for short trips and daily errands.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">4 Seats</div>
+                            <div class="vehicle-card__spec">Manual</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 2: Suzuki Cultus -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/suzuki-alto.png" alt="Suzuki Cultus">
+                        <div class="vehicle-card__badges"><span class="badge">Economy</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Suzuki Cultus</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Comfortable hatchback with modern features for city and highway drives.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Manual</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 3: Toyota Corolla XLi -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-corolla.png" alt="Toyota Corolla XLi">
+                        <div class="vehicle-card__badges"><span class="badge">Sedan</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Corolla XLi</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Reliable sedan with premium ride comfort for families and executives.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Manual</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 4: Toyota Corolla Altis X -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-corolla.png" alt="Toyota Corolla Altis X">
+                        <div class="vehicle-card__badges"><span class="badge">Sedan</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Corolla Altis X</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Modern automatic sedan with premium interior for effortless travel.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 5: Toyota Yaris 2026 -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-corolla.png" alt="Toyota Yaris 2026">
+                        <div class="vehicle-card__badges"><span class="badge">Sedan</span><span class="badge badge--green">New Arrival</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Yaris 2026</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">The freshest sedan in the fleet — refined, efficient and effortlessly modern.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 6: Honda Civic 2020 -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/honda-civic.png" alt="Honda Civic 2020">
+                        <div class="vehicle-card__badges"><span class="badge">Executive</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Honda Civic 2020</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Sporty executive sedan with a punchy engine and premium ride.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 7: Honda Civic 2021 -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/honda-civic.png" alt="Honda Civic 2021">
+                        <div class="vehicle-card__badges"><span class="badge">Executive</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Honda Civic 2021</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Refined Civic with premium comfort and confident highway performance.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 8: Honda Civic 2025 -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/honda-civic.png" alt="Honda Civic 2025">
+                        <div class="vehicle-card__badges"><span class="badge">Executive</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Honda Civic 2025</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">The latest Civic — hybrid efficiency meets executive elegance.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Hybrid</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 9: Toyota Fortuner -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-fortuner.png" alt="Toyota Fortuner">
+                        <div class="vehicle-card__badges"><span class="badge">SUV</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Fortuner</h3>
+                        <div class="vehicle-card__category">Self / With Driver</div>
+                        <p class="vehicle-card__desc">Powerful SUV perfect for rugged terrains and mountain tours.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">7 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Diesel</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 10: Toyota Hilux Revo -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-fortuner.png" alt="Toyota Hilux Revo">
+                        <div class="vehicle-card__badges"><span class="badge">4x4</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Hilux Revo</h3>
+                        <div class="vehicle-card__category">With Driver</div>
+                        <p class="vehicle-card__desc">Tough off-road capability matched with premium interior comfort.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Manual</div>
+                            <div class="vehicle-card__spec">Diesel</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 11: Toyota Prado -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-fortuner.png" alt="Toyota Prado">
+                        <div class="vehicle-card__badges"><span class="badge">SUV</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Prado</h3>
+                        <div class="vehicle-card__category">With Driver</div>
+                        <p class="vehicle-card__desc">A versatile and luxurious SUV that commands respect on any road.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">7 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Diesel</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 12: Toyota Land Cruiser -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-land-cruiser.png" alt="Toyota Land Cruiser">
+                        <div class="vehicle-card__badges"><span class="badge badge--blue">Luxury</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Land Cruiser</h3>
+                        <div class="vehicle-card__category">With Driver</div>
+                        <p class="vehicle-card__desc">Ultimate luxury and power for weddings and VIP travel.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">7 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 13: Audi A8 -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-land-cruiser.png" alt="Audi A8">
+                        <div class="vehicle-card__badges"><span class="badge badge--blue">Luxury</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Audi A8</h3>
+                        <div class="vehicle-card__category">With Driver</div>
+                        <p class="vehicle-card__desc">State-of-the-art luxury sedan for executives and weddings.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">5 Seats</div>
+                            <div class="vehicle-card__spec">Automatic</div>
+                            <div class="vehicle-card__spec">Petrol</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 14: Toyota Hiace -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-fortuner.png" alt="Toyota Hiace">
+                        <div class="vehicle-card__badges"><span class="badge">Van</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Hiace</h3>
+                        <div class="vehicle-card__category">With Driver</div>
+                        <p class="vehicle-card__desc">Spacious and comfortable van ideal for large families and group tours.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">13 Seats</div>
+                            <div class="vehicle-card__spec">Manual</div>
+                            <div class="vehicle-card__spec">Diesel</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vehicle 15: Toyota Coaster -->
+                <div class="vehicle-card fade-in">
+                    <div class="vehicle-card__image">
+                        <img src="images/toyota-fortuner.png" alt="Toyota Coaster">
+                        <div class="vehicle-card__badges"><span class="badge">Bus</span></div>
+                    </div>
+                    <div class="vehicle-card__body">
+                        <h3 class="vehicle-card__name">Toyota Coaster</h3>
+                        <div class="vehicle-card__category">With Driver</div>
+                        <p class="vehicle-card__desc">Premium minibus for corporate events, weddings, and large groups.</p>
+                        <div class="vehicle-card__specs">
+                            <div class="vehicle-card__spec">29 Seats</div>
+                            <div class="vehicle-card__spec">Manual</div>
+                            <div class="vehicle-card__spec">Diesel</div>
+                            <div class="vehicle-card__spec">A/C</div>
+                        </div>
+                        <div class="vehicle-card__footer">
+                            <a href="tel:+923319174081" class="vehicle-card__price">Call for Price</a>
+                            <div class="vehicle-card__actions">
+                                <a href="#" class="btn btn--ghost btn--sm">View Details</a>
+                                <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--sm">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-box fade-in">
+                <h2 class="heading-1 cta-box__title">Ready When You Are</h2>
+                <p class="cta-box__desc">Book your ride. Anytime. Message us on WhatsApp for the fastest response — our team confirms bookings 24/7.</p>
+                <div class="btn-group">
+                    <a href="https://wa.me/923335858046" class="btn btn--whatsapp btn--lg">WhatsApp</a>
+                    <a href="tel:+923319174081" class="btn btn--outline-gold btn--lg">Call 0331-9174081</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div>
+                    <a href="index.html" class="header__logo">
+                        <div class="logo__icon">S</div>
+                        <div class="logo__text">
+                            <span class="logo__brand">SHAH</span>
+                            <span class="logo__sub">Rent A Car</span>
+                        </div>
+                    </a>
+                    <p class="footer__brand-desc">Premium car rental service in Peshawar with 15+ years of trusted experience. Luxury cars, professional drivers, unforgettable journeys.</p>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Explore</h4>
+                    <div class="footer__links">
+                        <a href="index.html" class="footer__link">Home</a>
+                        <a href="fleet.html" class="footer__link">Our Fleet</a>
+                        <a href="services.html" class="footer__link">Services</a>
+                        <a href="blogs.html" class="footer__link">Blogs</a>
+                        <a href="about.html" class="footer__link">About</a>
+                        <a href="contact.html" class="footer__link">Contact</a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Contact</h4>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                        <a href="tel:+923319174081">0331-9174081</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.122 1.52 5.86L0 24l6.335-1.652A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.82a9.83 9.83 0 0 1-5.018-1.373l-.36-.213-3.733.978.997-3.643-.235-.374A9.82 9.82 0 0 1 2.18 12c0-5.422 4.398-9.82 9.82-9.82 5.422 0 9.82 4.398 9.82 9.82 0 5.422-4.398 9.82-9.82 9.82z"/></svg>
+                        <a href="https://wa.me/923335858046">0333-5858046</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                        <a href="mailto:faisalshah076076@gmail.com">faisalshah076076@gmail.com</a>
+                    </div>
+                    <div class="footer__contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                        <span>State Bank, Saddar Road, Peshawar Cantonment, Peshawar 25000</span>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="footer__heading">Follow</h4>
+                    <p class="footer__contact-item">Open 24 Hours · 7 Days A Week</p>
+                    <div class="footer__social">
+                        <a href="#" class="footer__social-link">f</a>
+                        <a href="#" class="footer__social-link">in</a>
+                        <a href="#" class="footer__social-link">ig</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="footer__copy">© 2026 Shah Rent A Car. All rights reserved.</div>
+                <div class="footer__bottom-tagline">Crafted with premium care in Peshawar.</div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/923335858046" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.126.553 4.122 1.52 5.86L0 24l6.335-1.652A11.94 11.94 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.82a9.83 9.83 0 0 1-5.018-1.373l-.36-.213-3.733.978.997-3.643-.235-.374A9.82 9.82 0 0 1 2.18 12c0-5.422 4.398-9.82 9.82-9.82 5.422 0 9.82 4.398 9.82 9.82 0 5.422-4.398 9.82-9.82 9.82z"/></svg>
+    </a>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
